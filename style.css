@@ -10,6 +10,11 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+.mar {
+    display: block;
+    display: none;
+}
+
 header {
     background-color: white;
 }
@@ -183,7 +188,7 @@ div img {
     color: #0a0d0f;
     float: right;
     line-height: 80px;
-    margin-right: 40px;
+    margin-right: 90px;
     cursor: pointer;
     display: none;
 }
@@ -374,13 +379,6 @@ h2 {
     border: 1px solid red;
     background-color: whitesmoke;
     height: 50vh;
-}
-
-.our3 {
-    border: 1px solid red;
-    background-color: whitesmoke;
-    height: 50vh;
-    /*   display: none; */
 }
 
 .story {
@@ -589,7 +587,7 @@ h2 {
         position: relative;
         right: 4.5em;
         margin-bottom: 50px;
-        width: 26em;
+        width: 20em;
         height: 80vh;
     }
     .banner-s {
@@ -604,7 +602,8 @@ h2 {
         left: 10em;
     }
     .banner-s .p1 {
-        font-size: 1.7em;
+        font-size: 1.4em;
+        width: 100%
     }
     .main {
         flex-direction: column;
@@ -617,13 +616,24 @@ h2 {
         position: relative;
         bottom: 20px;
     }
-    .our2 {}
+    .Curriculum {
+        font-size: 1.4em;
+    }
+    .our2 {
+        height: 20ems;
+    }
+    .div2,
+    .div1,
+    .div3 {
+        width: 19em;
+        margin-left: 60px;
+    }
     .story {
         position: relative;
         right: 12px;
     }
     .footer {
-        height: 150vh;
+        height: 180vh;
     }
     .education {
         flex-direction: column;
@@ -636,12 +646,13 @@ h2 {
         flex-direction: column;
         position: relative;
         bottom: 3em;
+        left: 7em;
     }
     .fp12 {
         position: relative;
-        right: 39px;
-        font-size: 23px;
         color: #2c3e50;
+        right: 4em;
+        font-size: 1.2em;
     }
     .nn {
         position: relative;
@@ -651,6 +662,7 @@ h2 {
         position: relative;
         right: .5em;
         color: wheat;
+        font-size: 2em;
     }
     .fh12 {
         position: relative;
@@ -680,5 +692,12 @@ h2 {
         right: 7em;
         width: 44px;
         height: 3em;
+    }
+    .mar {
+        display: block;
+    }
+    body {
+        max-width: 480px;
+        margin: 0 auto;
     }
 }
