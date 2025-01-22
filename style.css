@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #F7F7F7;
+    background-color: white;
 }
 
 hr {
@@ -207,7 +207,12 @@ div img {
 
 .belal {
     background-image: url(assets/bg.png);
-    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.aa {
+    background-image: url(assets/bg.png);
+    background-color: white;
 }
 
 .Curriculum {
@@ -329,18 +334,21 @@ img {
     margin-left: auto;
     background-repeat: no-repeat;
     margin-bottom: 7em;
+    margin-top: 20px;
 }
 
 .our-img {
     width: 19em;
     height: 30vh;
-    border-radius: 10px;
+    position: relative;
+    top: -1.9em;
     margin-right: 14em;
 }
 
 .bbb {
     text-align: center;
     margin-top: 3em;
+    font-size: 2em;
 }
 
 .our1,
@@ -352,6 +360,27 @@ h2 {
 
 .our-img1 {
     height: 20vh;
+    position: relative;
+    top: -2em;
+}
+
+.our1 {
+    border: 1px solid red;
+    width: 19em;
+    background-color: whitesmoke;
+}
+
+.our2 {
+    border: 1px solid red;
+    background-color: whitesmoke;
+    height: 50vh;
+}
+
+.our3 {
+    border: 1px solid red;
+    background-color: whitesmoke;
+    height: 50vh;
+    /*   display: none; */
 }
 
 .story {
@@ -380,7 +409,7 @@ h2 {
     background-color: aqua;
     color: rgb(7, 6, 6);
     position: relative;
-    top: -16px;
+    top: -3em;
 }
 
 .btnbe {
@@ -392,7 +421,7 @@ h2 {
     border-radius: 8px;
     color: rgb(2, 1, 1);
     position: relative;
-    top: -16px;
+    top: -3em;
 }
 
 
@@ -456,13 +485,15 @@ h2 {
 }
 
 .footer-img {
-    width: 100px;
-    height: 20vh;
+    width: 80px;
+    height: 10vh;
+    position: relative;
+    right: 4em;
 }
 
 .mm {
     display: flex;
-    gap: 16px;
+    gap: 10px;
 }
 
 .fh1 {
@@ -509,6 +540,7 @@ h2 {
         left: -100%;
         text-align: center;
         transition: all .4s;
+        z-index: 1;
     }
     nav ul li {
         display: block;
@@ -528,7 +560,7 @@ h2 {
     }
 }
 
-@media (max-width:600px) {
+@media (max-width:480px) {
     .btn {
         display: none;
     }
@@ -581,6 +613,11 @@ h2 {
     .our1 {
         display: none;
     }
+    .ab {
+        position: relative;
+        bottom: 20px;
+    }
+    .our2 {}
     .story {
         position: relative;
         right: 12px;
